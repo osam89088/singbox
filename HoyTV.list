@@ -1,7 +1,9 @@
 # NAME: HoyTV
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_scriptDOMAIN-KEYWORD,rthklive
-# DOMAIN-KEYWORD,rthklive
+
+ DOMAIN-KEYWORD,nowtv100
+ DOMAIN-KEYWORD,rthklive
  DOMAIN-SUFFIX,hoy.tv
  DOMAIN-SUFFIX,storage.hoy.tv
  DOMAIN-SUFFIX,api2.hoy.tv
