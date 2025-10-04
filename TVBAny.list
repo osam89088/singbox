@@ -1,0 +1,20 @@
+# NAME: TVBAny
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-04-29 13:35:33
+# DOMAIN: 2
+# DOMAIN-KEYWORD: 2
+# DOMAIN-SUFFIX: 2
+# TOTAL: 6
+PROCESS-NAME,tv.abema
+DOMAIN-SUFFIX,abema.io
+DOMAIN-SUFFIX,abema.tv
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,ameba.jp
+DOMAIN-SUFFIX,hayabusa.io
+DOMAIN-KEYWORD,abematv.akamaized.net
+DOMAIN-SUFFIX,img.tvbaw.com
+DOMAIN-SUFFIX,tvbanywherena.com
+DOMAIN-SUFFIX,edge.api.brightcove.com
+DOMAIN-SUFFIX,players.brightcove.net
+DOMAIN-SUFFIX,api.ipify.org
