@@ -1,0 +1,39 @@
+# NAME: ViuTV
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-04-29 13:34:34
+# DOMAIN-SUFFIX: 8
+# PROCESS-NAME: 3
+# TOTAL: 11
+PROCESS-NAME,com.hktve.viutv
+DOMAIN-SUFFIX,bootstrapcdn.com
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,jwpcdn.com
+DOMAIN-SUFFIX,jwplayer.com
+DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com
+DOMAIN-SUFFIX,nowe.com
+DOMAIN-SUFFIX,viu.com
+DOMAIN-SUFFIX,viu.tv
+DOMAIN-SUFFIX,viu.now.com
+DOMAIN-SUFFIX,pccw-live-cdn-viutv.akamaized.net
+DOMAIN-SUFFIX,fwp.nowe.com
+DOMAIN-SUFFIX,platform-lookaside.fbsbx.com
+DOMAIN-SUFFIX,bzib.nelreports.net
+DOMAIN-SUFFIX,s-usc1b-nss-2107.firebaseio.com
+DOMAIN-SUFFIX,sb.scorecardresearch.com
+DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
+DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
+DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net
+DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net
+DOMAIN-SUFFIX,pccw-live-cdn-viutv.akamaized.net:
+DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com
+DOMAIN-SUFFIX,viu.com
+DOMAIN-SUFFIX,viu.now.com
+DOMAIN-SUFFIX,viu.tv
+PROCESS-NAME,com.viu.pad
+PROCESS-NAME,com.viu.phone
+PROCESS-NAME,com.vuclip.viu
+DOMAIN-SUFFIX,s-usc1b-nss-2107.firebaseio.com
+DOMAIN-SUFFIX,firestore.googleapis.com
