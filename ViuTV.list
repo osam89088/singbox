@@ -1,10 +1,25 @@
- # 3. ViU TV（Viu + NowTV）
-  # ==============================================
-  DOMAIN-SUFFIX,viu.tv,香港电视
-  DOMAIN-SUFFIX,viu.com,香港电视
-  DOMAIN-SUFFIX,viu.now.com,香港电视
-  DOMAIN-SUFFIX,hktvbe.com,香港电视
-  # 播放CDN
-  DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net,香港电视
-  DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net,香港电视
-  DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net,香港电视
+# 香港ViuTV/NowTV 核心规则集
+# 适配官网、直播、点播、App
+# 更新时间：2026-02-26
+
+# 核心主域名（优先级最高）
+DOMAIN-SUFFIX,viu.tv
+DOMAIN-SUFFIX,viu.com
+DOMAIN-SUFFIX,viu.now.com
+DOMAIN-SUFFIX,hktvbe.com
+
+# 直播/点播CDN域名
+DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
+DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net
+DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net
+DOMAIN-SUFFIX,viu-cdn.com
+
+# 子域名/专用域名
+DOMAIN,www.viu.tv
+DOMAIN,live.viu.tv
+DOMAIN,app.viu.now.com
+
+# IP段兜底（ViuTV香港服务器常用段）
+IP-CIDR,103.37.128.0/17
+IP-CIDR,203.118.0.0/15
+IP-CIDR,18.143.0.0/16
