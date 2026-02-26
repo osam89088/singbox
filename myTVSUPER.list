@@ -1,13 +1,27 @@
-# NAME: myTVSUPER
-  DOMAIN-SUFFIX,tvb.com,香港电视
-  DOMAIN-SUFFIX,mytvsuper.com,香港电视
-  DOMAIN-SUFFIX,bigbigchannel.com.hk,香港电视
-  DOMAIN-SUFFIX,bigbigshop.com,香港电视
-  DOMAIN-SUFFIX,tvbanywhere.com,香港电视
-  DOMAIN-SUFFIX,tvbusa.com,香港电视
-  DOMAIN-SUFFIX,encoretvb.com,香港电视
-  DOMAIN-SUFFIX,tvbweekly.com,香港电视
-  # 播放CDN
-  DOMAIN-SUFFIX,bcbolt446c5271-a.akamaihd.net,香港电视
-  DOMAIN-SUFFIX,edge.api.brightcove.com,香港电视
+# 香港TVB myTV SUPER 核心规则集
+# 适配官网、直播、点播、App、TVB Anywhere
+# 更新时间：2026-02-26
 
+# 核心主域名（优先级最高）
+DOMAIN-SUFFIX,tvb.com
+DOMAIN-SUFFIX,mytvsuper.com
+DOMAIN-SUFFIX,tvbanywhere.com
+DOMAIN-SUFFIX,bigbigchannel.com.hk
+DOMAIN-SUFFIX,encoretvb.com
+
+# 直播/点播CDN域名
+DOMAIN-SUFFIX,bcbolt446c5271-a.akamaihd.net
+DOMAIN-SUFFIX,edge.api.brightcove.com
+DOMAIN-SUFFIX,tvb-video.hk
+DOMAIN-SUFFIX,mytvsuper-cdn.com
+
+# 子域名/专用域名
+DOMAIN,www.mytvsuper.com
+DOMAIN,video.mytvsuper.com
+DOMAIN,live.tvb.com
+DOMAIN,app.tvbanywhere.com
+
+# IP段兜底（TVB香港服务器常用段）
+IP-CIDR,103.10.128.0/17
+IP-CIDR,203.123.0.0/16
+IP-CIDR,185.19.128.0/18
