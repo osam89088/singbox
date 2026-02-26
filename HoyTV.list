@@ -1,16 +1,12 @@
-# NAME: HoyTV
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_scriptDOMAIN-KEYWORD,rthklive
- DOMAIN-SUFFIX,distrib.noisypeak.com
- DOMAIN-KEYWORD,nowtv100
- DOMAIN-KEYWORD,rthklive
- DOMAIN-SUFFIX,hoy.tv
- DOMAIN-SUFFIX,storage.hoy.tv
- DOMAIN-SUFFIX,api2.hoy.tv
- DOMAIN-SUFFIX,epg-file.hoy.tv
- DOMAIN-SUFFIX,display-algoad.hoy.tv
- DOMAIN-SUFFIX,hoytv-live-stream.hoy.tv
- DOMAIN-SUFFIX,d1r44591rc4b13.cloudfront.net
- DOMAIN-SUFFIX,vod.hoy.tv
- DOMAIN-SUFFIX,epg.seaovers.live
- DOMAIN-SUFFIX,edge.media.seaovers.live
+# 1. HOY TV（开电视）
+  # ==============================================
+  DOMAIN-SUFFIX,hoy.tv,香港电视
+  DOMAIN-SUFFIX,hktopentv.com,香港电视
+  DOMAIN-SUFFIX,icable.com,香港电视
+  DOMAIN-SUFFIX,open-tv.com.hk,香港电视
+
+ # 4. RTHK（香港电台）
+  # ==============================================
+  DOMAIN-SUFFIX,rthk.hk,香港电视
+  DOMAIN-SUFFIX,rthk.org.hk,香港电视
+  DOMAIN-SUFFIX,rthknews.com,香港电视
