@@ -1,12 +1,24 @@
-# 1. HOY TV（开电视）
-  # ==============================================
-  DOMAIN-SUFFIX,hoy.tv,香港电视
-  DOMAIN-SUFFIX,hktopentv.com,香港电视
-  DOMAIN-SUFFIX,icable.com,香港电视
-  DOMAIN-SUFFIX,open-tv.com.hk,香港电视
+# 香港HOY TV（开电视）核心规则集
+# 适配官网、直播、点播、App
+# 更新时间：2026-02-26
 
- # 4. RTHK（香港电台）
-  # ==============================================
-  DOMAIN-SUFFIX,rthk.hk,香港电视
-  DOMAIN-SUFFIX,rthk.org.hk,香港电视
-  DOMAIN-SUFFIX,rthknews.com,香港电视
+# 核心主域名（优先级最高）
+DOMAIN-SUFFIX,hoy.tv
+DOMAIN-SUFFIX,hktopentv.com
+DOMAIN-SUFFIX,icable.com
+DOMAIN-SUFFIX,open-tv.com.hk
+
+# 直播/点播CDN域名
+DOMAIN-SUFFIX,hoy-video.hk
+DOMAIN-SUFFIX,icable-cdn.com.hk
+DOMAIN-SUFFIX,hoy-live.com.hk
+
+# 子域名/专用域名
+DOMAIN,www.hoy.tv
+DOMAIN,live.hoy.tv
+DOMAIN,app.hktopentv.com
+
+# IP段兜底（HOY TV香港服务器常用段）
+IP-CIDR,103.20.0.0/16
+IP-CIDR,202.142.0.0/15
+IP-CIDR,119.28.0.0/16
