@@ -1,14 +1,16 @@
-# 香港TVB myTV SUPER 核心规则集
-# 适配官网、直播、点播、App、TVB Anywhere
-# 更新时间：2026-02-26
-
-# 核心主域名（优先级最高）
-DOMAIN-SUFFIX,tvb.com
+# NAME: myTVSUPER
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-04-29 13:35:33
+# DOMAIN: 2
+# DOMAIN-KEYWORD: 2
+# DOMAIN-SUFFIX: 2
+# TOTAL: 6
+DOMAIN,mytvsuperlimited.hb.omtrdc.net
+DOMAIN,mytvsuperlimited.sc.omtrdc.net
 DOMAIN-SUFFIX,mytvsuper.com
-# DOMAIN-SUFFIX,tvbanywhere.com
-DOMAIN-SUFFIX,bigbigchannel.com.hk
-DOMAIN-SUFFIX,encoretvb.com
-
+DOMAIN-SUFFIX,tvb.com
+DOMAIN-KEYWORD,rthklive
 # 直播/点播CDN域名
 DOMAIN-SUFFIX,bcbolt446c5271-a.akamaihd.net
 DOMAIN-SUFFIX,edge.api.brightcove.com
