@@ -1,29 +1,19 @@
-# NAME: myTVSUPER
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-04-29 13:35:33
-# DOMAIN: 2
-# DOMAIN-KEYWORD: 2
-# DOMAIN-SUFFIX: 2
-# TOTAL: 6
-DOMAIN,mytvsuperlimited.hb.omtrdc.net
-DOMAIN,mytvsuperlimited.sc.omtrdc.net
-DOMAIN-SUFFIX,mytvsuper.com
-DOMAIN-SUFFIX,tvb.com
-DOMAIN-KEYWORD,rthklive
-# 直播/点播CDN域名
-DOMAIN-SUFFIX,bcbolt446c5271-a.akamaihd.net
-DOMAIN-SUFFIX,edge.api.brightcove.com
-DOMAIN-SUFFIX,tvb-video.hk
-DOMAIN-SUFFIX,mytvsuper-cdn.com
+# --- TVB & myTV SUPER 最佳化規則 ---
+# 主要域名與 API (全子域名覆蓋)
+- DOMAIN-SUFFIX,tvb.com,香港節點
+- DOMAIN-SUFFIX,mytvsuper.com,香港節點
+- DOMAIN-SUFFIX,tvbanywhere.com,香港節點
+- DOMAIN-SUFFIX,tvb.com.hk,香港節點
 
-# 子域名/专用域名
-DOMAIN,www.mytvsuper.com
-DOMAIN,video.mytvsuper.com
-DOMAIN,live.tvb.com
-DOMAIN,app.tvbanywhere.com
+# 影音串流與 CDN
+- DOMAIN-SUFFIX,tvb-video.hk,香港節點
+- DOMAIN-SUFFIX,mytvsuper-cdn.com,香港節點
+- DOMAIN-SUFFIX,akamaized.net,香港節點
+- DOMAIN-SUFFIX,brightcove.com,香港節點
 
-# IP段兜底（TVB香港服务器常用段）
-IP-CIDR,103.10.128.0/17
-IP-CIDR,203.123.0.0/16
-IP-CIDR,185.19.128.0/18
+# IP 段兜底 (增加 no-resolve 以防 DNS 洩漏)
+- IP-CIDR,103.10.128.0/18,香港節點,no-resolve
+- IP-CIDR,203.123.0.0/16,香港節點,no-resolve
+- IP-CIDR,185.19.128.0/18,香港節點,no-resolve
+- IP-CIDR,202.126.32.0/19,香港節點,no-resolve
+
