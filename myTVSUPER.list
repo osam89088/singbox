@@ -1,18 +1,18 @@
-# --- TVB & myTV SUPER 最佳化規則 ---
-# 主要域名與 API (全子域名覆蓋)
-- DOMAIN-SUFFIX,tvb.com,🇭🇰 香港节点
-- DOMAIN-SUFFIX,mytvsuper.com,🇭🇰 香港节点
-- DOMAIN-SUFFIX,tvbanywhere.com,🇭🇰 香港节点
-- DOMAIN-SUFFIX,tvb.com.hk,🇭🇰 香港节点
+payload:
+  # --- TVB & myTV SUPER 核心域名 ---
+  - DOMAIN-SUFFIX,tvb.com
+  - DOMAIN-SUFFIX,mytvsuper.com
+  - DOMAIN-SUFFIX,tvbanywhere.com
+  - DOMAIN-SUFFIX,tvb.com.hk
 
-# 影音串流與 CDN
-- DOMAIN-SUFFIX,tvb-video.hk,🇭🇰 香港节点
-- DOMAIN-SUFFIX,mytvsuper-cdn.com,🇭🇰 香港节点
-- DOMAIN-SUFFIX,akamaized.net,🇭🇰 香港节点
-- DOMAIN-SUFFIX,brightcove.com,🇭🇰 香港节点
+  # --- 影音串流與 CDN ---
+  - DOMAIN-SUFFIX,tvb-video.hk
+  - DOMAIN-SUFFIX,mytvsuper-cdn.com
+  - DOMAIN-SUFFIX,akamaized.net
+  - DOMAIN-SUFFIX,brightcove.com
 
-# IP 段兜底 (增加 no-resolve 以防 DNS 洩漏)
-- IP-CIDR,103.10.128.0/18,🇭🇰 香港节点,no-resolve
-- IP-CIDR,203.123.0.0/16,🇭🇰 香港节点,no-resolve
-- IP-CIDR,185.19.128.0/18,🇭🇰 香港节点,no-resolve
-- IP-CIDR,202.126.32.0/19,🇭🇰 香港节点,no-resolve
+  # --- IP 段兜底 (CIDR 格式) ---
+  - IP-CIDR,103.10.128.0/18,no-resolve
+  - IP-CIDR,203.123.0.0/16,no-resolve
+  - IP-CIDR,185.19.128.0/18,no-resolve
+  - IP-CIDR,202.126.32.0/19,no-resolve
