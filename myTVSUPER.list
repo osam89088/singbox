@@ -1,17 +1,17 @@
 # --- TVB & myTV SUPER 核心域名 ---
-- DOMAIN-SUFFIX,tvb.com
-- DOMAIN-SUFFIX,mytvsuper.com
-- DOMAIN-SUFFIX,tvbanywhere.com
-- DOMAIN-SUFFIX,tvb.com.hk
+DOMAIN-SUFFIX,tvb.com
+DOMAIN-SUFFIX,mytvsuper.com
+DOMAIN-SUFFIX,tvbanywhere.com
+DOMAIN-SUFFIX,tvb.com.hk
 
 # --- 影音串流與 CDN ---
-- DOMAIN-SUFFIX,tvb-video.hk
-- DOMAIN-SUFFIX,mytvsuper-cdn.com
-- DOMAIN-SUFFIX,akamaized.net
-- DOMAIN-SUFFIX,brightcove.com
+DOMAIN-SUFFIX,tvb-video.hk
+DOMAIN-SUFFIX,mytvsuper-cdn.com
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,brightcove.com
 
   # --- IP 段兜底 (CIDR 格式) ---
-- IP-CIDR,103.10.128.0/18,no-resolve
-- IP-CIDR,203.123.0.0/16,no-resolve
-- IP-CIDR,185.19.128.0/18,no-resolve
-- IP-CIDR,202.126.32.0/19,no-resolve
+IP-CIDR,103.10.128.0/18,no-resolve
+IP-CIDR,203.123.0.0/16,no-resolve
+IP-CIDR,185.19.128.0/18,no-resolve
+IP-CIDR,202.126.32.0/19,no-resolve
