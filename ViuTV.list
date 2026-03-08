@@ -1,42 +1,37 @@
-# NAME: ViuTV
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-04-29 13:34:34
-# DOMAIN-SUFFIX: 8
-# PROCESS-NAME: 3
-# TOTAL: 11
+# --- ViuTV 直播與點播完整合併規則 ---
+
+# [進程名]
 PROCESS-NAME,com.hktve.viutv
-DOMAIN-SUFFIX,bootstrapcdn.com
-DOMAIN-SUFFIX,cloudfront.net
-DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
-DOMAIN-SUFFIX,firebaseio.com
-DOMAIN-SUFFIX,jwpcdn.com
-DOMAIN-SUFFIX,jwplayer.com
-DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com
-DOMAIN-SUFFIX,nowe.com
-DOMAIN-SUFFIX,viu.com
-DOMAIN-SUFFIX,viu.tv
-DOMAIN-SUFFIX,viu.now.com
-DOMAIN-SUFFIX,pccw-live-cdn-viutv.akamaized.net
-DOMAIN-SUFFIX,fwp.nowe.com
-DOMAIN-SUFFIX,platform-lookaside.fbsbx.com
-DOMAIN-SUFFIX,bzib.nelreports.net
-DOMAIN-SUFFIX,s-usc1b-nss-2107.firebaseio.com
-DOMAIN-SUFFIX,sb.scorecardresearch.com
-DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
-DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
-DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net
-DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net
-DOMAIN-SUFFIX,pccw-live-cdn-viutv.akamaized.net:
-DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com
-DOMAIN-SUFFIX,viu.com
-DOMAIN-SUFFIX,viu.now.com
-DOMAIN-SUFFIX,viu.tv
 PROCESS-NAME,com.viu.pad
 PROCESS-NAME,com.viu.phone
 PROCESS-NAME,com.vuclip.viu
+
+# [核心網域 - 負責直播授權與點播 API]
+DOMAIN-SUFFIX,viu.tv
+DOMAIN-SUFFIX,viu.now.com
+DOMAIN-SUFFIX,now-tv.com
+DOMAIN-SUFFIX,nowe.com
+DOMAIN-SUFFIX,fwp.nowe.com
+DOMAIN-SUFFIX,viu.com
+
+# [直播流專用 - Akamai CDN]
+DOMAIN-SUFFIX,pccw-live-cdn-viutv.akamaized.net
+DOMAIN-SUFFIX,akamaized.net
+
+# [點播影片流 - Cloudfront CDN 精確匹配]
+# 註：點播影片檔案多存放於此，若不加載會導致「轉圈圈」或加載失敗
+DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
+DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net
+DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net
+
+# [播放器組件與後端驗證]
+DOMAIN-SUFFIX,jwpcdn.com
+DOMAIN-SUFFIX,jwplayer.com
 DOMAIN-SUFFIX,s-usc1b-nss-2107.firebaseio.com
-DOMAIN-SUFFIX,firestore.googleapis.com
+DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
+DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com
+DOMAIN-SUFFIX,bzib.nelreports.net
+
 
 # 直播/点播CDN域名
 DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
