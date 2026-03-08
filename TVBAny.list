@@ -15,6 +15,29 @@
   DOMAIN-SUFFIX,edge.api.brightcove.com
   DOMAIN-SUFFIX,bcbolt446c5271-a.akamaihd.net
   DOMAIN-SUFFIX,api.ipify.org
+  # --- 核心影片流補充 (針對 Brightcove 與 Fastly CDN) ---
+  # 你截圖中的網址就是屬於這個後綴
+  DOMAIN-SUFFIX,brightcovecdn.com
+  DOMAIN-SUFFIX,boltdns.net
+  DOMAIN-SUFFIX,fastly.net
+  
+  # --- 第三方認證與統計 (若不走代理可能導致無法進入 App) ---
+  DOMAIN-SUFFIX,gigya.com
+  DOMAIN-SUFFIX,conviva.com
+  DOMAIN-SUFFIX,app-measurement.com
+  DOMAIN-SUFFIX,firebaseio.com
+  DOMAIN-SUFFIX,crashlytics.com
+
+  # --- 廣告與追蹤 (北美版強制檢查廣告載入，若跳過可能導致影片無法播放) ---
+  DOMAIN-SUFFIX,doubleclick.net
+  DOMAIN-SUFFIX,googleads.g.doubleclick.net
+  DOMAIN-SUFFIX,googlesyndication.com
+  DOMAIN-SUFFIX,pubads.g.doubleclick.net
+
+  # --- IP 偵測補充 (TVB 常用來確認用戶出口 IP) ---
+  DOMAIN,ifconfig.co
+  DOMAIN,ifconfig.me
+  DOMAIN,myip.com
 
   # --- 北美版伺服器 IP 段 (加上 no-resolve 優化) ---
   IP-CIDR,65.9.42.0/24,no-resolve
