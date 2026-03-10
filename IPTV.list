@@ -1,5 +1,4 @@
 DOMAIN-SUFFIX,filegear-sg.me
-DOMAIN-SUFFIX,163189.xyz
 DOMAIN-SUFFIX,cdn.1veryfast.filegear-sg.me
 DOMAIN-SUFFIX,cdn2.veryfast.filegear-sg.me
 DOMAIN-SUFFIX,cdn3.veryfast.filegear-sg.me
@@ -7,7 +6,7 @@ DOMAIN-SUFFIX,cdn5.veryfast.filegear-sg.me
 DOMAIN-SUFFIX,cdn6.veryfast.filegear-sg.me
 DOMAIN-SUFFIX,cdn8.veryfast.filegear-sg.me
 DOMAIN-SUFFIX,cdn9.veryfast.filegear-sg.me
-DOMAIN-KEYWORD,o11.163189.xyz
+# DOMAIN-KEYWORD,o11.163189.xyz
 DOMAIN-KEYWORD,cdn.163189.xyz
 DOMAIN-KEYWORD,cdn2.163189.xyz
 DOMAIN-KEYWORD,cdn3.163189.xyz
