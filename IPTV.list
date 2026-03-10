@@ -1,3 +1,6 @@
-DOMAIN-SUFFIX,filegear-sg.me
+# 建議修改規則如下
+DOMAIN-SUFFIX,filegear-sg.me,新加坡固定節點,no-resolve
+DOMAIN-KEYWORD,veryfast,新加坡固定節點,no-resolve
+
 
 # DOMAIN-KEYWORD,o11.163189.xyz
