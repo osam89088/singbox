@@ -1,6 +1,3 @@
-# 80/443 之外的端口规则
-# REPO: https://github.com/osam89088/rule
-# TOTAL: 3
 
 payload:
 DST-PORT,1-79
