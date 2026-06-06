@@ -1,0 +1,23 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "163189.xyz",
+        "264788.xyz",
+        "cdn.veryfast.filegear-sg.me"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "o11.163189.xyz",
+        "live.264788.xyz",
+        "cdn6.veryfast.filegear-sg.me",
+        "shcm-stream-cf1.stream.264788.xyz",
+        "live.fanmingming.com",
+        "v.iill.top",
+        "maomizi.cn"
+      ]
+    }
+  ]
+}
