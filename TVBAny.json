@@ -1,16 +1,13 @@
 {
-  "version": 3,
+  "version": 1,
   "rules": [
     {
       "domain": [
-        "plus.tvbanywhere.com",
         "b.tvb.com",
         "ifconfig.co",
         "ifconfig.me",
         "myip.com"
-      ]
-    },
-    {
+      ],
       "domain_suffix": [
         "tvbanywherena.com",
         "tvbusa.com",
@@ -20,9 +17,7 @@
         "tvbanywhere.com",
         "akamaized.net",
         "brightcove.com",
-        "players.brightcove.net",
-        "edge.api.brightcove.com",
-        "bcbolt446c5271-a.akamaihd.net",
+        "akamaihd.net",
         "api.ipify.org",
         "brightcovecdn.com",
         "boltdns.net",
@@ -33,19 +28,11 @@
         "firebaseio.com",
         "crashlytics.com",
         "doubleclick.net",
-        "googleads.g.doubleclick.net",
-        "googlesyndication.com",
-        "pubads.g.doubleclick.net"
+        "googlesyndication.com"
       ]
     },
     {
       "ip_cidr": [
-        "65.9.42.0/24",
-        "173.145.131.0/24",
-        "185.19.128.0/18",
-        "35.185.0.0/16"
-      ],
-      "ip_cidr_no_resolve": [
         "65.9.42.0/24",
         "173.145.131.0/24",
         "185.19.128.0/18",
